@@ -175,7 +175,7 @@ array anywhere except at the end.  You won't like the results.
 1. Fork it.
 2. Create a branch (`git checkout -b new-feature`)
 3. Make your changes
-4. Run the tests (`bundle install` then `bundle exec rake`)
+4. Run the tests (`gem install bundler -v '~>1.0'`, `bundle install` then `bundle exec rake`)
 5. Commit your changes (`git commit -am "Created new feature"`)
 6. Push to the branch (`git push origin new-feature`)
 7. Create a {pull request}[http://help.github.com/send-pull-requests/] from your branch.
